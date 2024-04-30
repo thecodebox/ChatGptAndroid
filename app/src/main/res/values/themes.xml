@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ChatGpt" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:background">#1C1B1F</item>
+
+        <item name="android:textColor">#ffffff</item>
+        <item name="colorPrimaryDark">#1C1B1F</item>
+    </style>
+
+    <style name="Base.ToolBar.Style" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">#1C1B1F</item>
+        <item name="titleTextColor">#ffffff</item>
+
+    </style>
+
+
+    <style name="Theme.ChatGpt" parent="Base.Theme.ChatGpt" />
+</resources>
